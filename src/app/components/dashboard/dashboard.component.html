@@ -1,0 +1,19 @@
+<div class="dashboard-container">
+  <header class="dashboard-header">
+    <h1>Habit Tracker</h1>
+    <div class="user-info">
+      <span *ngIf="userName">Hola, {{userName}}</span>
+      <button class="logout-btn" (click)="signOut()">Cerrar sesión</button>
+    </div>
+  </header>
+  
+  <main class="dashboard-content">
+    <div class="welcome-card">
+      <h2>Bienvenido a tu Habit Tracker</h2>
+      <p>Este es tu panel de control donde podrás gestionar tus hábitos diarios.</p>
+      <p>¡Comienza a añadir nuevos hábitos y realiza un seguimiento de tu progreso!</p>
+    </div>
+    
+    <!-- Aquí se agregarían los componentes para gestionar hábitos -->
+  </main>
+</div>
